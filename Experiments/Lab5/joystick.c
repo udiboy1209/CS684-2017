@@ -1,6 +1,7 @@
 #include "joystick.h"
 #include "driverlib/uart.h"
-#include "main.h"
+
+extern void sendSampleData(uint32_t x, uint32_t y);
 
 uint32_t adcSamples[4];
 
